@@ -1,0 +1,21 @@
+{
+  "name": "whale-miniprogram-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yintingwen/whale-miniprogram-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "miniprogram": "src",
+  "bugs": {
+    "url": "https://github.com/yintingwen/whale-miniprogram-api/issues"
+  },
+  "homepage": "https://github.com/yintingwen/whale-miniprogram-api#readme"
+}

@@ -1,4 +1,4 @@
-export const asyncMethods = [
+export default [
   'canvasGetImageData',
   'canvasPutImageData',
   'canvasToTempFilePath',
