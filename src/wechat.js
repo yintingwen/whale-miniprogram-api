@@ -5,7 +5,6 @@ export default class Wechat {
    * @param {*} options 参数
    */
   static promiseCall (methodName, options, ...args) {
-    console.log(methodName, options);
     return new Promise((resolve, reject) => {
       wx[methodName]({
         ...options,
