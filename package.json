@@ -13,6 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "miniprogram": "src",
   "bugs": {
     "url": "https://github.com/yintingwen/whale-miniprogram-api/issues"
   },
