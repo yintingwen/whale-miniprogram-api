@@ -6,7 +6,7 @@ import authMethod from './authMethod'
 
 const proxyInstance = new Proxy(new Target, {
   get (target, key) {
-    // 返回以创建方法
+    // 返回已创建方法
     if (target[key]) {
       return target[key]
     }

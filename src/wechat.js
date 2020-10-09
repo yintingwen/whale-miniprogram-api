@@ -51,6 +51,8 @@ export default class Wechat {
         fail: () => {
           wx.showModal({
             content,
+            cancelColor: '#000000',
+            confirmColor: '#3CC51F',
             success: (result) => {
               if (result.cancel) {
                 return reject(new Error('拒绝授权'))
